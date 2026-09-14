@@ -1,5 +1,10 @@
 name: Validate Code
-on: push
+on:
+  workflow-run:
+    workflows: ["first workflow"]
+    types:
+      - completed
+
 jobs:
   validate-html:
     runs-on: ubuntu-latest
