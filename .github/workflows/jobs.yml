@@ -33,4 +33,4 @@ jobs:
       run: node --check script.js
 
     - name: validate html code
-      run: node --check index.html
+      run: npx html-validator-cli index.html
