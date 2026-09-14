@@ -1,6 +1,6 @@
-name: Validate Code
+name: Jobs Test
 on:
-  workflow-run:
+  workflow_run:
     workflows: ["first workflow"]
     types:
       - completed
