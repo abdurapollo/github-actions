@@ -9,4 +9,4 @@ jobs:
       - name: Bye github actions
         run: echo "Bye github actions"
       - name: Fail jon intentionally
-        run: exit 1
+        run: exit 0
